@@ -1,0 +1,21 @@
+.Main{
+    -fx-background-color: lightgreen;
+    -fx-padding: 10;
+    -fx-alignment: TOP_CENTER;
+    -fx-spacing: 10;
+}
+.Content{
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+    -fx-fill:blue;
+    -fx-stroke: gold;
+    -fx-stroke-width: 3;
+}
+.Button{
+    -fx-background-color: lightcoral;
+    -fx-text-fill: white;
+    -fx-pref-width: 250;
+    -fx-font-size: 18;
+    -fx-stroke-width: 3;
+    -fx-font-weight: bold;
+}

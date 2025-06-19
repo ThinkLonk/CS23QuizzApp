@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="Main" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tlong.mavenproject3.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Content" text="QUIZZ APP" />
+      <Button mnemonicParsing="false" onAction="#handleQuestionManagement" styleClass="Button" text="QUẢN LÍ CÂU HỎI" />
+      <Button layoutX="279.0" layoutY="277.0" mnemonicParsing="false" onAction="#handlePratctice" styleClass="Button" text="THI" />
+      <Button layoutX="279.0" layoutY="295.0" mnemonicParsing="false" styleClass="Button" text="ĐĂNG KÍ" />
+      <Button layoutX="279.0" layoutY="312.0" mnemonicParsing="false" styleClass="Button" text="ĐĂNG NHẬP" />
+   </children>
+</VBox>
